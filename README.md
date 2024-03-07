@@ -8,7 +8,6 @@ It uncovers distinct clusters of tumors based on epigenetic factor expressions, 
 The study helps with understanding the epigenetic landscape’s role in cancer.
 
 ### Question
-How does the NMF clustering architecture differ from alternative clustering techniques such as k-means clustering or hierarchical clustering?
-Would sampling for particular cancer subtypes determine an alternative structure of the respective clusters from NMF clustering? 
+How does the expression of epi-factor genes across five pediatric cancer types using different clustering algorithms and neural networks to analyze complex patterns within gene expression data?
 
 ### Methodology
