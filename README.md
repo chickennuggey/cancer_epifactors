@@ -16,7 +16,7 @@ Overall, this research contributes significantly to our understanding of pediatr
 
 
 ### Methodology
-#### - Data Collection
+#### - [Data Collection](https://github.com/rghosh1353/cancer_epifactors/tree/main/01_data_collection)
 #### - Filtering
 #### - K-Means Clustering
 #### - Neural Networks
