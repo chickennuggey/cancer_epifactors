@@ -11,3 +11,7 @@ The study helps with understanding the epigenetic landscape’s role in cancer.
 How does the expression of epi-factor genes across five pediatric cancer types using different clustering algorithms and neural networks to analyze complex patterns within gene expression data?
 
 ### Methodology
+#### Data Collection
+#### Filtering
+#### K-Means Clustering
+#### Neural Networks
