@@ -1,1 +1,5 @@
 # K-Means Clustering
+
+ We log 2 transformed, z-scored, and arranged data into a matrix of cancer counts to perform k-means clustering. We created a data frame called cancer_counts_t, a transpose of the original matrix, containing read levels of 986 filtered genes for 525 patients. Performing t-SNE dimensionality reduction on the matrix with a random seed set to 66 allowed us to plot two-dimensional clusters for the most influential dimensions of gene expression. The dataset was arranged into clusters using the random seed set to 43, 45, or 47 to test the resemblance of clusters to the five pediatric cancer types categorizing each patient. The accuracy of our clusters was evaluated by calculating the percentage of patients in cancer that belong to the dominating cancer type of each cluster. Assigning each cluster to one cancer allows for prediction based on epi factor gene expression, unlike assigning each cancer to its most popular cluster. 
+
+K-means.R contains the R code for the above methodology
