@@ -2,7 +2,7 @@
 
 Based on the following paper: [Pan-cancer landscape of epigenetic factor expression predicts tumor outcome](https://www.nature.com/articles/s42003-023-05459-w#data-availability)
 
-### Current status of this research
+### Overview
 The research provides a pan-cancer analysis of epigenetic factors across 24 adult cancer types, using TCGA to explore their impact on tumor heterogeneity and patient outcomes. 
 It uncovers distinct clusters of tumors based on epigenetic factor expressions, which correlate with prognostic implications, suggesting potential as biomarkers and therapeutic targets. 
 The study helps with understanding the epigenetic landscape’s role in cancer.
@@ -17,6 +17,12 @@ Overall, this research contributes significantly to our understanding of pediatr
 
 ### Methodology
 #### - [Data Collection](https://github.com/rghosh1353/cancer_epifactors/tree/main/01_data_collection)
+* Raw RNA counts were obtained for five types of pediatric cancer: osteosarcoma (OS), neuroblastoma (NBL), acute myeloid leukemia (AML), Wilms Tumor (WT), and acute lymphoblastic leukemia (ALL) from the TARGET dataset within TCGA.
 #### - [Filtering](https://github.com/rghosh1353/cancer_epifactors/tree/main/02_filtering)
+* The dataset includes nearly 1000 samples, with a preprocessing step to filter out samples in the lower 25% of gene expressions, focusing on significantly expressed genes.
 #### - [K-Means Clustering](https://github.com/rghosh1353/cancer_epifactors/tree/main/03_K-means_clustering)
+* Applied to categorize the gene expression data into distinct clusters for each cancer type.
 #### - [Neural Networks](https://github.com/rghosh1353/cancer_epifactors/tree/main/neural_network)
+* Used to analyze patterns in gene expression data, providing a nuanced understanding of epigenetic factors in cancer progression.
+
+
