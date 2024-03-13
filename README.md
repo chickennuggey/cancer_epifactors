@@ -30,6 +30,6 @@ Overall, this research contributes significantly to our understanding of pediatr
 * Neural networks outperformed k-means clustering, achieving an average accuracy of 99.49% in predicting cancer types based on gene expression models.
 * These high accuracy rates underscore the potential of using clustering and neural network analyses as biomarkers for early detection and targeted therapy.
 
-#### How to Use This Repository
+### How to Use This Repository
 * Data: The data used for this study can be found within each folder
 * Code: Code for data collection, filtering, k-means clustering, and neural network models along with analysis for both is available within each folder in either.R or .ipynb files
