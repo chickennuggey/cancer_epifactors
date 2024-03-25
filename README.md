@@ -1,5 +1,7 @@
 # Epigenetic Factor of Pediatric Cancer Types using different types of Clustering and Neural Networks
 
+By: Ria Ghosh, Briana Nguyen, Julie Reyes, Sarala Sharma, Jane Zhao
+
 Based on the following paper: [Pan-cancer landscape of epigenetic factor expression predicts tumor outcome](https://www.nature.com/articles/s42003-023-05459-w#data-availability)
 
 ### Overview
