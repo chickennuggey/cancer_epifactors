@@ -18,13 +18,13 @@ Overall, this research contributes significantly to our understanding of pediatr
 
 
 ### Methodology
-#### [Data Collection](https://github.com/rghosh1353/cancer_epifactors/tree/main/01_data_collection)
+#### Data Collection
 * Raw RNA counts were obtained for five types of pediatric cancer: osteosarcoma (OS), neuroblastoma (NBL), acute myeloid leukemia (AML), Wilms Tumor (WT), and acute lymphoblastic leukemia (ALL) from the TARGET dataset within TCGA.
-#### [Filtering](https://github.com/rghosh1353/cancer_epifactors/tree/main/02_filtering)
+#### Filtering
 * The dataset includes nearly 1000 samples, with a preprocessing step to filter out samples in the lower 25% of gene expressions, focusing on significantly expressed genes.
-#### [K-Means Clustering](https://github.com/rghosh1353/cancer_epifactors/tree/main/03_K-means_clustering)
+#### K-Means Clustering
 * Applied to categorize the gene expression data into distinct clusters for each cancer type.
-#### [Neural Networks](https://github.com/rghosh1353/cancer_epifactors/tree/main/neural_network)
+#### Neural Networks
 * Used to analyze patterns in gene expression data, providing a nuanced understanding of epigenetic factors in cancer progression.
 
 ### Key Findings
